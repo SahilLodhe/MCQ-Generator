@@ -1,0 +1,2 @@
+[2024-07-13 01:12:02,787] 23 root - Logging setup complete.
+[2024-07-13 01:12:17,616] 1026 httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"

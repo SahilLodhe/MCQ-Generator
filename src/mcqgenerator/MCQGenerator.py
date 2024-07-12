@@ -16,7 +16,6 @@ from langchain_openai import ChatOpenAI
 load_dotenv() 
 
 key = os.getenv("OPENAI_API_KEY")
-print("OPENAI_API_KEY", key)
 llm = ChatOpenAI(api_key=key,  model_name="gpt-3.5-turbo", temperature=0.3)
 
 template="""
